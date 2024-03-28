@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5CDB95;
+    margin-top:125px;
+  }
+  h1{
+    color:rgb(235, 238, 240)
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color:#05386B;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(250, 248, 248, 0.915);
+    
+       
+    
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #250a75;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #56a5de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a8c8df;
+  }
+  
+  .weather-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  
+  }
+  
+  .weather-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a8c8df;
+  }
+  
+  .weather-item h2 {
+    margin-top: 0;
+    color: #141313;
+  }
+  
+  .weather-item p {
+    margin: 10px 0;
+    color: #1d1c1c;
+  }
+  
+  .weather-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .weather-item.temperature,
+  .weather-item.humidity {
+    width: calc(50% - 10px);
+  }
+  
+  .weather-item.description,
+  .weather-item.wind-speed {
+  width: 100%;
+  margin-top: 20px;
+}
